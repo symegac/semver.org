@@ -274,7 +274,7 @@ taga (oznake), a semantička verzija je "1.2.3".
 ### Da li postoji predloženi regularni izraz (RegEx) za proveru SemVer stringa?
 
 Postoje dva. Jedan sa imenovanim grupama za one sisteme koji ih podržavaju
-(PCRE [Perl kompatibilni regularni izrazi, tj. Perl, PHP i R], , Python
+(PCRE [Perl Compatible Regular Expressions (Perl kompatibilni regularni izrazi), tj. Perl, PHP i R], Python
 i Go).
 
 Pogledajte: <https://regex101.com/r/Ly7O1x/3/>
@@ -285,8 +285,8 @@ Pogledajte: <https://regex101.com/r/Ly7O1x/3/>
 
 I drugi sa numerisanim grupama (znači ng1 = major (glavna), ng2 = minor (manja),
 ng3 = patch (zakrpa), ng4 = prerelease (predizdanje) i ng5 = buildmetadata (metapodaci)) koji su kompatibilni
-sa ECMA Script (JavaScript), PCRE (Perl kompatibilni regularni izrazi,
-tj. Perl, PHP i R), Python i Go.
+sa ECMA Script (JavaScript), PCRE [Perl Compatible Regular Expressions (Perl kompatibilni regularni izrazi),
+tj. Perl, PHP i R], Python i Go.
 
 Pogledajte: <https://regex101.com/r/vkijKf/1/>
 
