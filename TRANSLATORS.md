@@ -17,3 +17,7 @@ This file contains the translation contributors who are willing to help translat
 ## Hebrew
 
 - [@ShlomoCode](https://github.com/ShlomoCode)
+
+## Serbian
+
+- [@rammba](https://github.com/rammba)
