@@ -44,7 +44,7 @@ udbredt almindelig praksis i brug i både lukket og open source-software.
 For at dette system fungerer, skal du først erklære en offentlig API. Dette kan evt.
 bestå af dokumentation eller håndhæves af selve koden. Uanset hvad er det
 vigtigt, at denne API er tydelig og præcis. Når du identificerer din offentlige
-API, kommunikerer du ændringer af den med specifikke øgelser af dit versionsnummer.
+API, kommunikerer du ændringer af den med specifikke forøgelser af dit versionsnummer.
 Forestil dig et versionsformat med formen X.Y.Z (Major.Minor.Patch).
 Fejlrettelser, der ikke påvirker API'en, øger patch-versionen (Z),
 bagudkompatible API-tilføjelser/-ændringer øger minor-versionen (Y),
@@ -74,7 +74,7 @@ Hvert element SKAL øges numerisk. For eksempel: 1.9.0 -> 1.10.0 -> 1.11.0.
 1. Når en versioneret pakke er blevet udgivet, MÅ indholdet IKKE ændres i den version.
 Eventuelle ændringer SKAL udgives som en ny version.
 
-1. Nulre major-version (0.y.z) er til indledende udvikling. Alt KAN ændre sig
+1. Nulte major-version (0.y.z) er til indledende udvikling. Alt KAN ændre sig
 når som helst. Den offentlige API BØR IKKE betragtes som stabil.
 
 1. Version 1.0.0 definerer den offentlige API. Måden, hvorpå versionsnummeret
